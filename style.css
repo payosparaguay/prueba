@@ -149,8 +149,72 @@ nav a:hover::before {
         display: block;
         margin: 8px 0;
     }
+
+    /* Buscador de Anime */
+.buscador {
+    padding: 40px 20px;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+.buscador h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+}
+
+#animeInput {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+.search-box button:hover {
+    transform: translateY(-2px);
+}
+
+.resultados {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.anime-card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 4px solid #667eea;
+}
     
     .banner img {
         height: 150px;
     }
+}
+
+.error {
+    text-align: center;
+    color: #e74c3c;
+    font-weight: bold;
 }

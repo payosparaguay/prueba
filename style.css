@@ -150,6 +150,7 @@ nav a:hover::before {
         margin: 8px 0;
     }
 
+}
     /* Buscador de Anime */
 .buscador {
     padding: 40px 20px;
@@ -211,7 +212,7 @@ nav a:hover::before {
     .banner img {
         height: 150px;
     }
-}
+
 
 .error {
     text-align: center;

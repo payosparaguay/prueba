@@ -6,17 +6,6 @@
     <title>Mi Página Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    
-    <!-- Buscador de Anime -->
-    <section class="buscador">
-        <h2>🔍 Buscador de Anime</h2>
-        <div class="search-box">
-            <input type="text" id="animeInput" placeholder="Escribe el nombre de un anime...">
-            <button onclick="buscarAnime()">Buscar</button>
-        </div>
-        <div id="resultados" class="resultados"></div>
-    </section>
-    
 <body>
     <div class="container">
         <h1>Aprendiendo HTML</h1>
@@ -31,6 +20,18 @@
             <a href="#">Música</a>
             <a href="#">Otros</a>
         </nav>
+
+        <!-- Buscador de Anime -->
+        <section class="buscador">
+            <h2>🔍 Buscador de Anime</h2>
+            <div class="search-box">
+                <input type="text" id="animeInput" placeholder="Escribe el nombre de un anime...">
+                <button onclick="buscarAnime()">Buscar</button>
+            </div>
+            <div id="resultados" class="resultados"></div>
+        </section>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
